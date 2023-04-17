@@ -26,13 +26,13 @@ const App = () => {
     <div className="flex-container">
 
       <div className="field">        
-      <Form.Label className="formLabel">Full Name</Form.Label>
-        <Form.Control placeholder="First name" />        
+      <Form.Label className="formLabel">Student Name</Form.Label>
+        <Form.Control placeholder="Student Name" />        
       </div>
 
       <div className="field">
-        <Form.Label className="formLabel">Full Class</Form.Label>
-        <Form.Control placeholder="First name" />        
+        <Form.Label className="formLabel">Class Roll</Form.Label>
+        <Form.Control placeholder="Class Roll" />        
       </div>
 
       <div className="field">
