@@ -17,7 +17,7 @@ function Formedit(props) {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered>
                 <Modal.Header closeButton>
-                    <Modal.Title id="contained-modal-title-vcenter">Edit information</Modal.Title>
+                    <Modal.Title id="contained-modal-title-vcenter">Edit information.  sss</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
 
