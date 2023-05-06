@@ -1,7 +1,29 @@
 .main{
-  width: '90%'; 
-  padding-left: 40px; 
+  width: '80%'; 
+  padding-left: 60px; 
 }
+
+
+.header{  
+  text-align: center; 
+  margin-bottom: 10px; 
+  margin-top: 20px;
+}
+.header_name{
+  font-size: 30px;
+}
+.header_idcard{
+  font-size: 20px;
+}
+
+.header_logo img{
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
 .flex-container{  
 	display: -webkit-box;
   display: -moz-box;
@@ -21,4 +43,120 @@
 
 .formLabel{
   font-size: 15px;
+}
+
+.footer{
+  height: 100px;
+  background-color: gray;
+  text-align: center;
+  padding-top: 20px;
+  color: aliceblue;
+}
+ 
+
+.submit{
+  background-color: #0f5132e0;
+  color: antiquewhite;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.imageshow{
+  width: 100px;
+  margin-top: 5px;
+}
+.imageshow img{
+  width: 100px;
+  height: 100px;
+}
+
+
+.loading{
+  width: 50%;
+  height: 10%;  
+  background: teal;
+  z-index: 999;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 20%;  
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+
+.resutl_main {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  top: 0px;
+  position: fixed;
+  padding-left: 30%;
+}
+.resutl_header {
+  margin-bottom: 10px;
+  font-size: 24px;  
+  color: black;
+  margin-top: 69px;
+}
+
+.field{
+  font-size: 16px;
+}
+
+.close{
+  cursor: pointer;
+  color: white;
+  width: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+  background-color: teal;
+}
+
+.resultlist img {
+  width: 100px;
+  height: 100px;
+  border-radius: 46px;
+  border: 1px solid teal;
+}
+
+
+.logoutbtn{
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: teal;  
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.listimage{
+  width: 50px;
+  height: 50px;
+  border: 1px solid teal;
+}
+.dash_filter{
+  width: 200px;
 }
